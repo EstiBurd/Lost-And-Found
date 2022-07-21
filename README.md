@@ -1,4 +1,3 @@
-#Calculator
 I'm Lost 🔍
 
 A site designed to connect those who found something with those who lost it.
