@@ -25,7 +25,6 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
-    "react-swal": "^3.0.0",
     "react-visibility-sensor": "^5.1.1",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
@@ -33,6 +32,7 @@
     "thunk": "0.0.1",
     "web-vitals": "^1.1.2",
     "webfontloader": "^1.6.28"
+    
   },
   "scripts": {
     "predeploy": "npm run build",
