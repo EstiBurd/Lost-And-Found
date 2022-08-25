@@ -9,7 +9,7 @@
   color: $color;
   border-radius: 28px;
 
-  transition: color $duration $duration/3;
+  transition: color $duration $duration;
   position: relative;
 
   &::before,
