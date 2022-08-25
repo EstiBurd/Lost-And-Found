@@ -88,11 +88,12 @@ option {
 
 .design {
     border: solid #a7700a 2px;
-    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.075),
-        0 8px 8px hsl(0deg 0% 0% / 0.075),
-        0 16px 16px hsl(0deg 0% 0% / 0.075);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    //     0 2px 2px hsl(0deg 0% 0% / 0.075),
+    //     0 4px 4px hsl(0deg 0% 0% / 0.075),
+    //     0 8px 8px hsl(0deg 0% 0% / 0.075),
+    //     0 16px 16px hsl(0deg 0% 0% / 0.075);
     background-color: rgba(85, 84, 84, 0.253);
     padding: 20px;
     width: 100%;
