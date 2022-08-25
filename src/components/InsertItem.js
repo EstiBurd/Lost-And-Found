@@ -16,12 +16,12 @@ const InsertItem = (props) => {
 
     useEffect(() => {
         if (props.userID == null) {
-            Swal({
-                icon: 'error',
-                title: '...אופססס',
-                text: 'בבקשה לבצע כניסה למערכת',
-                footer: '<a href="">Why do I have this issue?</a>'
-            })
+            // Swal({
+            //     icon: 'error',
+            //     title: '...אופססס',
+            //     text: 'בבקשה לבצע כניסה למערכת',
+            //     footer: '<a href="">Why do I have this issue?</a>'
+            // })
             return navigate("/Login");
         }
     }, [props.userID])

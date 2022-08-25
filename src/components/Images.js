@@ -23,12 +23,12 @@ const Images = (props) => {
     useEffect(() => {
         if (tryClicky){
        
-            Swal({
-        icon: 'success',
-        title: 'המודעה נשמרה בהצלחה!',
-        showConfirmButton: false,
-        timer: 1500
-    })
+    //         Swal({
+    //     icon: 'success',
+    //     title: 'המודעה נשמרה בהצלחה!',
+    //     showConfirmButton: false,
+    //     timer: 1500
+    // })
     navigate("/Home");
         }
     

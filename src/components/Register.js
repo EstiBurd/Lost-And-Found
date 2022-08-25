@@ -32,12 +32,12 @@ const Register = (props) => {
         if (tryClicky) {
             if (props.theUser != null) {
                 localStorage.setItem('myUser', JSON.stringify(props.theUser));
-                Swal({
-                    icon: 'success',
-                    title: 'תודה שהצטרפת אלינו! מייד תועבר לדף הבא',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
+                // Swal({
+                //     icon: 'success',
+                //     title: 'תודה שהצטרפת אלינו! מייד תועבר לדף הבא',
+                //     showConfirmButton: false,
+                //     timer: 1500
+                // })
                 navigate("/InsertItem");
             }
         }
