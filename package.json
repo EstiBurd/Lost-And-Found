@@ -32,7 +32,6 @@
     "thunk": "0.0.1",
     "web-vitals": "^1.1.2",
     "webfontloader": "^1.6.28"
-    
   },
   "scripts": {
     "predeploy": "npm run build",
