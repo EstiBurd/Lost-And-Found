@@ -23,18 +23,18 @@ const navigate=useNavigate();
     useEffect(() => {
         if (tryClicky){
         if(props.theUser == null) {
-            // Swal({
-            //     icon: 'error',
-            //     title: '...אופססס',
-            //     text: 'אינך רשום במערכת, אנא בצע רישום מחדש',
-            //     footer: '<a href="">Why do I have this issue?</a>'
-            // })
+            Swal({
+                icon: 'error',
+                title: '...אופססס',
+                text: 'אינך רשום במערכת, אנא בצע רישום מחדש',
+                footer: '<a href="">Why do I have this issue?</a>'
+            })
 
             navigate("/Register")
         }
         else {
             localStorage.setItem('myUser', JSON.stringify( props.theUser));
-            // Swal('כניסה בוצעה בהצלחה, מייד תועבר לדף הבא');
+            Swal('כניסה בוצעה בהצלחה, מייד תועבר לדף הבא');
 
         }
         if(props.theUser){
